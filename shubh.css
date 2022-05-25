@@ -1,0 +1,147 @@
+body{
+    background-color: gray;
+}
+.edit1{
+    border: 6px solid red;
+    background-color: white;
+    color: rgb(174, 27, 174);
+    border-radius: 15px;
+    width: 400px;
+    height: 90px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    position: absolute;
+    left: 450px;
+    padding: 30px;
+    text-shadow: 2px 1px;
+    box-shadow: 10px 10px purple;
+    font-style: italic;
+    position: absolute;
+    top: 20px;
+}
+.h1{
+    width: 100vw;
+    position: absolute;
+    top: 200px;
+}
+.h2{
+    width: 100vw;
+    position: absolute;
+    top: 210px;
+}
+
+.flex-container{
+    display: flex;
+    height: 700px;
+    width: 96vw;
+    border: 10px solid darkgreen;
+    position: absolute;
+    top: 230px;
+    
+    
+}
+.flex-item{
+    border: 6px solid red;
+    width: 240px;
+    height: 240px;
+    background-color: white;
+    color: darkblue;
+    font-weight: bold;
+    font-size: 25px;
+    padding-top: 10px;
+    text-shadow: 2px 1px 1px;
+    border-radius: 15px;
+    box-shadow: 9px 9px purple;
+}
+img{
+    height: 200px;
+    width: 200px;
+    padding-top: 20px;
+}
+.item1{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    text-align: center;
+}
+.item2{
+    position: absolute;
+    top: 20px;
+    left: 1000px;
+    text-align: center;
+}
+.item3{
+    position: absolute;
+    top: 400px;
+    left: 20px;
+
+}
+.item4{
+    position: absolute;
+    top: 400px;
+    left: 1000px;
+    text-align: center;
+}
+.grid-container{
+    display: grid;
+    background-color: darkgreen;
+    width: 650px;
+    height: 600px;
+    position: absolute;
+    top: 1000px;
+    left: 400px;
+    grid-template-columns: auto auto;
+    border: 10px solid purple;
+    text-align: center;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+.grid-item{
+    background-color: yellow;
+    margin: 2px;
+    font-size: 13px;
+    font-style: italic;
+}
+.test1{
+    background-color: darkgreen;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    height: 0px;
+    font-style: normal;
+    font-size: 16px;
+}
+.test4{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+.fix{
+    display: flex;
+    border: 6px solid red;
+    border-radius: 10px;
+    position: fixed;
+    top: 400px;
+    left: 500px;
+    height: 60px;
+    width: 30vw;
+    box-shadow: 9px 9px purple;
+    background-color: rgb(92, 219, 92);
+    font-weight: bold;
+    color: brown;
+    font-style: italic;
+}
+.item5{
+    text-align: center;
+    padding-top: 10px;
+    width: 20vw;
+    font-size: 20px;
+}
+.item6{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 17px;
+}
